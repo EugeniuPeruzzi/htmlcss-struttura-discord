@@ -20,7 +20,7 @@ body{
 .jumbotron-header{
     background-color: #ADD8E6;
 }
-
+ /* adjusted */
 .row-header{
     height: 60px;
     width: 100%;
@@ -56,7 +56,7 @@ body{
     text-align: right;
     padding-right: 10px;
 } 
-
+/* end adjusted */
 
 /* something wrong with width in col-60 and col-20 needs to be adjusted
     sure is about the margins, but why?  
@@ -91,16 +91,25 @@ body{
 }
 
 .row-blu{
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .col-pink{
+    width: calc(100% - 160px);
+    margin: 0px 160px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-blu{
     background-color: #EE82EE;
     height: 80%;
-    width: 55%;
+    width: 100%;
 }
 /* header end */
 
@@ -131,7 +140,6 @@ body{
 .jumbotron-grey{
     margin-top: 40px;
     background-color: #D3D3D3;
-    width: 100%;
 }
 
 .col-70-reverse{
@@ -162,7 +170,6 @@ body{
 /*  first part of footer */
 .jumbotron-black{
     background-color: #23272A;
-    width: 100%;
 }
 
 .row-black{
