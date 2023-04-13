@@ -23,12 +23,13 @@ body{
 
 .row-header{
     height: 50px;
-    width: calc(100%);
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-
+ /* something wrong with width in col-60 and col-20 needs to be adjusted
+    sure is about the margins, but why?  */
 .col-60{
     height: 30px;
     background-color: #DAA520;
