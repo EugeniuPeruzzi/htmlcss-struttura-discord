@@ -58,34 +58,6 @@ body{
 } 
 /* end adjusted */
 
-/* something wrong with width in col-60 and col-20 needs to be adjusted
-    sure is about the margins, but why?  
-
-*/
-
-/* .col-60{
-    height: 30px;
-    background-color: #DAA520;
-    width: 60%;
-    text-align: center;
-    padding-top: 3px;
-}
-
-.col-20{
-    background-color: #DAA520;
-    height: 30px;
-    width: 20%;
-    padding-top: 3px;
-    padding-left: 5px;
-}
-
-#text-right{
-    background-color: #DAA520;
-    height: 30px;
-    text-align: right;
-    padding-right: 5px;
-} */
-
 .jumbotron-blu{
     background-color: #00008B;
 }
@@ -176,6 +148,12 @@ body{
     width: 100%;
     display: flex;
     justify-content: center
+}
+
+.row-cyan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .col-70-footer{
